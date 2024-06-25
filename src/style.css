@@ -6,7 +6,7 @@ body{
 }
 
 #content{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     background-size: 200%;
     width: 50%;
     min-height: 50%;
@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -33,5 +33,9 @@ body{
 .main-menu{
     width: 400px;
     height: 400px;
-    background-color: red;
+    /* background-color: red; */
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

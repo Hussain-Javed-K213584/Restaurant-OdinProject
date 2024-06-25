@@ -24,8 +24,11 @@ function addMainMenu(){
         console.log(item + ' '+ menuItems[item]);
         const listitem = document.createElement('li');
         listitem.innerText = item + ' ' + menuItems[item];
+        listitem.style.color = 'red';
         unorderedList.appendChild(listitem);
     }
+    unorderedList.style.listStyleType = 'none';
+    mainMenuContent.appendChild(unorderedList);
 
     return mainMenuContent;
 
